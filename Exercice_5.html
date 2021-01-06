@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Exercice_5</title>
+        <meta charset="UTF-8" />
+    </head>
+    <body>
+        <form>
+            <label for="firstNumber">Premier nombre : </label><input type="text" id="firstNumber" name="firstNumber"/><br/>
+            <label for="secondNumber">Deuxième nombre : </label><input type="text" id="secondNumber" name="secondNumber"/><br/>
+            <button  id="submit" name ="submit" onclick="showMultiple()">Valider</button>
+        </form>
+
+        <script>
+            function showMultiple()
+            {
+                let txt_firstnumber = document.getElementById("firstNumber").value;
+                let txt_secondnumber = document.getElementById("secondNumber").value;
+                let firstnumber = parseInt (txt_firstnumber);
+                let secondnumber = parseFloat (txt_secondnumber);
+                if (isNaN(firstnumber))
+                {
+                    window.alert("Le premier nombre saisi n'est pas un nombre");
+                } else if (isNaN(secondnumber))
+                {
+                    window.alert("Le second nombre saisi n'est pas un nombre");
+                } else
+                {
+                    window.alert("Multiplication du 1er nombre en entier par le 2nd en décimales : "+ firstnumber * secondnumber);
+                }
+            }
+        </script>
+    </body>
+</html>

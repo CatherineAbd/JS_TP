@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8" />
+        <title>JS Ex3</title>
+    </head>
+
+    <body>
+
+        <script>
+            let firstname = window.prompt( "Saisissez votre prénom :");
+            // if (firstname == null || firstname == "")
+            // {
+            //     window.alert("Vous n'avez rien saisi");
+            // }
+            // else
+            // {
+            //     window.alert("Bonjour " + firstname);
+            // }
+            if (firstname == null)
+            {
+                window.alert("Vous avez appuyé sur annuler");
+            } else if (firstname == "")
+            {
+                window.alert("Vous n'avez rien saisi");
+            }
+            else
+            {
+                window.alert("Bonjour " + firstname);
+            }
+        </script>
+    </body>
+</html>
