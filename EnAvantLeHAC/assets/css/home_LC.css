@@ -1,0 +1,175 @@
+body {
+	background-color: #dbdbdb!important;
+	padding: 2%;
+}
+
+h3 {
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-weight: 600;
+	user-select: none;
+}
+
+tr.uppercase {
+    width: 7%;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.leader {
+	background-color: #091c3e;
+	color: white;
+}
+
+.playoffs {
+	background-color: #808080;
+}
+
+tr.up {
+	background-color: #b3b3b3;
+}
+
+tr.down {
+	border-bottom: 1px solid #dbdbdb;
+	background-color: #e6e6e6;
+}
+
+tr {
+    vertical-align: middle;
+    cursor: pointer;
+    user-select: none;
+}
+
+td {
+	vertical-align: sub;
+	text-align: center;
+}
+
+td img {
+    vertical-align: middle;
+    display: inline-block;
+    max-width: 40px;
+    pointer-events: none;
+}
+
+th i {
+	width: 20px;
+	height: 20px;
+	vertical-align: middle;
+}
+
+th svg {
+	vertical-align: middle;
+	width: 20px;
+	height: 20px;
+	margin-left: 2px;
+	display: inline-block;
+}
+
+th svg.circle {
+	vertical-align: middle;
+	width: 15px;
+	height: 15px;
+	margin-left: 4px;
+	display: inline-block;
+}
+
+th svg.circle.green {
+	color: #21cd35;
+}
+
+th svg.circle.red {
+	color: #ec2024;
+}
+
+th svg.circle.grey {
+	color: #ababab;
+}
+
+span svg.circle {
+	margin-right: 5px;
+}
+
+span svg.circle.green {
+	color: #21cd35;
+}
+
+span svg.circle.red {
+	color: #ec2024;
+}
+
+span svg.circle.grey {
+	color: #ababab;
+}
+
+
+th svg.up {
+	color: #21cd35;
+}
+
+th svg.down {
+	color: #ec2024;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+tr:hover {
+	background-color: #808388;
+}
+
+thead tr {
+	user-select: none;
+}
+
+thead tr:hover {
+	background-color: #dbdbdb;
+	cursor: default;
+}
+
+th.points-hide {
+	display: none;
+}
+
+.play-off {
+	display: none;
+}
+
+.points-off {
+	display: none;
+}
+
+@media only screen and (max-width: 600px) {
+	
+	.responsive-title {
+		overflow: hidden;
+    	white-space: nowrap;
+
+	}
+
+	.responsive-item {
+		display: none;
+
+	}
+
+		.play-on {
+			display: none;
+		}
+
+		.play-off {
+			display: table-cell;
+		}
+
+		.points-on {
+			display: none;
+		}
+
+		.points-off {
+			display: table-cell;
+		}
+
+}
+© 2021 GitHub, Inc.
